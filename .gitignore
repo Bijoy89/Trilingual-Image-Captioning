@@ -1,0 +1,11 @@
+# Ignore model checkpoints (too large for GitHub)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Common Python/PyCharm junk (optional but recommended)
+__pycache__/
+*.pyc
+.venv/
+.idea/
