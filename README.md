@@ -29,15 +29,18 @@ This repository accompanies the paper *"Towards Trilingual Image Captioning: Bri
 Full results, ablations, and analysis are reported in the paper.
 
 ## Repository Structure
-├── app.py # UI/entry point for running captioning on an image
-├── model.py # CLIPCap architecture: MLP mapper + GPT-2 decoder wrapper
-├── inference.py # Caption generation logic (greedy / beam search)
-├── requirements.txt # Python dependencies
-├── checkpoints/ # Trained model weights (NOT included — see below)
-│ ├── clipcap_bn_best.pt
-│ ├── clipcap_hi_best.pt
-│ └── clipcap_en_best.pt
+
+```
+├── app.py               # UI/entry point for running captioning on an image
+├── model.py               # CLIPCap architecture: MLP mapper + GPT-2 decoder wrapper
+├── inference.py            # Caption generation logic (greedy / beam search)
+├── requirements.txt         # Python dependencies
+├── checkpoints/             # Trained model weights (NOT included — see below)
+│   ├── clipcap_bn_best.pt
+│   ├── clipcap_hi_best.pt
+│   └── clipcap_en_best.pt
 └── README.md
+```
 ## Model Checkpoints
 
 Due to file size limits, trained model checkpoints (`.pt` files) are **not included** in this repository.
